@@ -1,4 +1,4 @@
-package fr.maif.junit5;
+package fr.elgregos.junit5;
 
 public class SimpleClass {
     public static String get() {

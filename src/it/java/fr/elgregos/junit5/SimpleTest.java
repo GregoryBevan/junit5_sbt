@@ -1,13 +1,14 @@
-package fr.maif.junit5;
+package fr.elgregos.junit5;
 
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-class SimpleClassTest {
+public class SimpleTest {
 
     @Test
-    public void launch() {
+    public void test() {
         assertThat(SimpleClass.get()).isEqualTo("YO MAMA");
     }
+
 }
